@@ -9,8 +9,6 @@ export let cart =[{
 
 }];
 
-
-
 export function addToCart(productId){
 
   let matchingItem;
@@ -32,7 +30,6 @@ export function addToCart(productId){
   }
 
 }
-
 
 export function removeFromCart(productId){
   const newCart= [];

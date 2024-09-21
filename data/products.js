@@ -60,6 +60,26 @@ class Clothing extends Product{
     `;
   }
 }
+/*
+const date = new Date();
+console.log(date);
+console.log(date.toLocaleTimeString());
+
+
+function logThis(){
+  console.log(this);
+}
+logThis():
+logThis.call('hello);
+
+this 
+const objects3 ={
+  method: () =>{
+    console.log(this);
+    }
+};
+objects3.method();
+*/
 
 
 export const products = [
@@ -147,7 +167,7 @@ export const products = [
       stars: 4.5,
       count: 175
     },
-    price: 3499,
+    price: 349,
     keywords: [
       "kitchen",
       "cookware"
@@ -193,7 +213,7 @@ export const products = [
       stars: 4.5,
       count: 305
     },
-    price: 1200,
+    price: 700,
     keywords: [
       "bathroom",
       "cleaning"
@@ -207,7 +227,7 @@ export const products = [
       stars: 4,
       count: 89
     },
-    price: 3390,
+    price: 1390,
     keywords: [
       "shoes",
       "running shoes",
@@ -302,7 +322,7 @@ export const products = [
       stars: 5,
       count: 846
     },
-    price: 3074,
+    price: 1690,
     keywords: [
       "water boiler",
       "appliances",
@@ -350,7 +370,7 @@ export const products = [
       stars: 4.5,
       count: 52
     },
-    price: 1799,
+    price: 799,
     keywords: [
       "jewelry",
       "accessories",
@@ -531,7 +551,7 @@ export const products = [
       stars: 4.5,
       count: 511
     },
-    price: 3500,
+    price: 2500,
     keywords: [
       "cooking set",
       "kitchen"
@@ -545,7 +565,7 @@ export const products = [
       stars: 4.5,
       count: 130
     },
-    price: 1649,
+    price: 1099,
     keywords: [
       "bathroom",
       "washroom",
@@ -578,7 +598,7 @@ export const products = [
       stars: 4.5,
       count: 117
     },
-    price: 2400,
+    price: 1999,
     keywords: [
       "accessories",
       "womens"
@@ -636,7 +656,7 @@ export const products = [
       stars: 4.5,
       count: 93
     },
-    price: 1110,
+    price: 759,
     keywords: [
       "bathroom",
       "home",
@@ -662,12 +682,12 @@ export const products = [
   {
     id: "77a845b1-16ed-4eac-bdf9-5b591882113d",
     image: "images/products/countertop-blender-64-oz.jpg",
-    name: "Countertop Blender - 64oz, 1400 Watts",
+    name: "Countertop Blender, 1400 Watts",
     rating: {
       stars: 4,
       count: 3
     },
-    price: 7747,
+    price: 4599,
     keywords: [
       "food blenders",
       "kitchen",
@@ -698,7 +718,7 @@ export const products = [
       stars: 4.5,
       count: 1045
     },
-    price: 1599,
+    price: 879,
     keywords: [
       "kitchen",
       "kitchen towels",

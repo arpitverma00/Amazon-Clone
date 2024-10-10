@@ -31,11 +31,7 @@ export function renderOrderSummary(){
         deliveryOption.deliveryDays,
         'days'
       );
-      const dateString= deliveryDate.format('dddd, MMMM D');
-
-
-
-      
+      const dateString= deliveryDate.format('dddd, MMMM D');     
 
       cartSummaryHTML += ` <div class="cart-item-container 
                 js-cart-item-container
